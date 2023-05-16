@@ -1,0 +1,46 @@
+
+.menu-bar ul li {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin-left: 1px;
+    
+}
+.menu-bar ul li a{
+    color: white;
+
+}
+.body{
+    background-image: url(https://th.bing.com/th/id/OIP.zut5-npIFe8e1eDc0RCpfwHaE7?w=303&h=203&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+}
+.submenu1{
+    display: none;
+}
+ .menu-bar ul li:hover
+{
+ background: #6b6c6e;
+}
+
+.menu-bar ul li:hover .submenu1 {
+    display: block;
+}
+.submenu2{
+    display: none;
+}
+.menu-bar ul li:hover .submenu2 {
+    display: block;
+}
+.submenu3{
+    display: none;
+}
+.menu-bar ul li:hover .submenu3 {
+    display: block;
+}
+.submenu4{
+    display: none;
+}
+.menu-bar ul li:hover .submenu4 {
+    display: block;
+}
